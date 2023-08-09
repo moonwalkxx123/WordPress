@@ -50,7 +50,7 @@ if (file_exists(dirname(__FILE__) . '/wp-config-pantheon.php') && isset($_ENV['P
 
 
 /** Standard wp-config.php stuff from here on down. **/
-
+define( 'WPSCAN_API_TOKEN', '95TpMQi2FiFi0sZwiUdJVYYyjl3fwprQpcAFagNl8EY' );
 /**
  * WordPress Database Table prefix.
  *
